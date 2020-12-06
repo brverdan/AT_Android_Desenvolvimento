@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation_main"
+    app:startDestination="@id/listaToDoFragment">
+
+    <fragment
+        android:id="@+id/listaToDoFragment"
+        android:name="br.infnet.al.todolist.lista.ListaToDoFragment"
+        android:label="lista_to_do_fragment"
+        tools:layout="@layout/lista_to_do_fragment" />
+    <fragment
+        android:id="@+id/createToDoFragment"
+        android:name="br.infnet.al.todolist.create.CreateToDoFragment"
+        android:label="create_to_do_fragment"
+        tools:layout="@layout/create_to_do_fragment" />
+    <fragment
+        android:id="@+id/detailsToDoFragment"
+        android:name="br.infnet.al.todolist.details.DetailsToDoFragment"
+        android:label="details_to_do_fragment"
+        tools:layout="@layout/details_to_do_fragment" />
+</navigation>
