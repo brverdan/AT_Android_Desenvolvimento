@@ -76,7 +76,7 @@ class DetailsToDoFragment : Fragment() {
             cbDetailsCompletada.isChecked = todo.completada
         }
         else if (!status) {
-            showSnackbar("Nenhum carro foi selecionado")
+            showSnackbar("Nenhum todo foi selecionado")
         }
     }
 

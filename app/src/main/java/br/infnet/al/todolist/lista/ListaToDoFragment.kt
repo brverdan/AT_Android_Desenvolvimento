@@ -35,7 +35,7 @@ class ListaToDoFragment : Fragment() {
                 adaptarRecylerList(it)
             }
             else {
-                showSnackBar("Nenhum carro encontrado na base")
+                showSnackBar("Nenhum todo encontrado na base")
             }
         }
 
